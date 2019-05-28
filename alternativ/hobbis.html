@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <!-- META - DON'T TOUCH -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Title - Set to what you want in the browser tab -->
+    <title>Radmehr portfolio</title>
+
+    <!-- Stylesheets -->
+    <!-- Imported -->
+    <!-- BOOTSTRAP -->
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Local -->
+    <!-- Master -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav id="myNav" class="overlay">
+        <a href="javascript: void(0)" class="close" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <ul>
+                <li><a href="./Om.html">Om mig</a></li>
+                <li><a href="./hobbis.html">Mina hobbies</a></li>
+                <li><a href="./minu.html">Min utbilning</a></li>
+                <li><a href="./vilka.html">Vilka filmer gillar jag?</a></li>
+                <li><a href="./min.html">Min Familj</a></li>>
+            </ul>
+        </div>
+    </nav>
+    <!-- Button for Navbar -->
+    <button onclick="openNav()" class="fas fa-bars"></button>
+    <a href="../index.html"><i class="hemknapp icon ion-md-home"></i></a>
+
+    <!-- <div class="cover-container d-flex p-3 mx-auto flex-column "> -->
+    <!-- <div class="row"> -->
+
+
+    <div class="pfl">
+        <!-- Vänner fliken-->
+        <div class="testingmargins">
+            <div class="bildpass">
+                <img class="hobbybild" src="../assets/img/vännerbild.jpg" alt="">
+
+            </div>
+            <div class="Vännertext">
+
+                <h2>Vänner</h2>
+                <p>Vänner är en stor del av mitt liv. Berättelsen om hur jag lärde mig att bli så social, för att kunna skaffa vänner så snabbt. Är en historia som är spännande.</p>
+                <p><a class="S
+                    btn btn-secondary" href="./vänner.html" role="button">Se mer &raquo;</a></p>
+            </div>
+        </div><!-- /.col-lg-4 -->
+
+
+        <!--Tränings fliken-->
+        <div class="t2">
+            <img class="hobbybild" src="../assets/img/Träning2.jpg" alt="">
+            <div class="Träningtext">
+                <h2>Tränning</h2>
+                <p>Folk tror inte oftas att jag gillar att träna men jag gillar extremt mycket att träna. Det är en rolig historia vilka träningar jag har provat.</p>
+                <p><a class="btn btn-secondary" href="Träning.html" role="button">Se mer &raquo;</a></p>
+
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+        <!--prograeming fliken-->
+        <div class="t2">
+            <img class="hobbybild" src="../assets/img/programening.jpg" alt="">
+
+            <div class="programeningText">
+                <h2>Programmering</h2>
+                <p>Programmering är en av mina passioner i livet
+                    men vad var det som gjorde så att jag började gilla det?
+                    tyck för att veta mer </p>
+                <p><a class="btn btn-secondary" href="Programening.html" role="button">Se mer &raquo;</a></p>
+
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        <!--</div>-->
+        <!-- /.row -->
+
+    </div>
+    <script>
+        var nav = document.getElementById("myNav");
+
+        function openNav() {
+            nav.style.width = "100%";
+        }
+
+        function closeNav() {
+            nav.style.width = "0";
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+
+    </script>
+</body>
+
+</html>

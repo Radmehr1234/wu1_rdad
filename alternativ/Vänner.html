@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <!-- META - DON'T TOUCH -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Title - Set to what you want in the browser tab -->
+    <title>Radmehr portfolio</title>
+
+    <!-- Stylesheets -->
+    <!-- Imported -->
+    <!-- BOOTSTRAP -->
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Local -->
+    <!-- Master -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+    <!-- Button for Navbar -->
+    <header>
+
+        <a href="../index.html"><i class="hemknapp icon ion-md-home "></i></a>
+        <nav>
+            <button onclick="openNav()" class="fas fa-bars float-right"></button>
+        </nav>
+
+        <!-- Navbar -->
+        <nav id="myNav" class="overlay">
+            <a href="javascript: void(0)" class="close" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <ul>
+                    <li><a href="./Om.html">Om mig</a></li>
+                    <li><a href="./hobbis.html">Mina hobbies</a></li>
+                    <li><a href="./minu.html">Min utbilning</a></li>
+                    <li><a href="./vilka.html">Vilka filmer gillar jag?</a></li>
+                    <li><a href="./min.html">Min Familj</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="Textalla">
+        <img src="../assets/img/vännerbild.jpg" alt="Bild på mig och mina vänner">
+        <div>
+            <h1>Vänner</h1>
+            <p>Folk i min omgivning frågar mig alltid hur jag är så social. Det de flesta vet inte att ända sen jag var liten har jag varit blyg. Men vänta är Radmehr blyg, tänker du. Ja! Det kanske inte låter som mig men eftersom att jag är så
+                social, har jag har lyckats komma över min blyghet.<br><br>När jag var liten kände jag inte att jag passade in som de andra barnen. Jag kände inte att det fanns personer som mig. Det här gjorde så att jag kände mig ensam. Men jag sa
+                aldrig
+                det till någon för jag vågade inte göra det. På grund av allt som hände när jag var minder och när jag var en ung liten ung, blev jag den jag är idag.<br><br>Idag har jag inga problem med att prata med folk. jag känner att jag
+                passar in. Men nått som jag lärde mig var att alltid vara snäll motta alla. Men att bara tillåta få vara min nära vän.<br><br>De vänner som jag anser som mina nära vänner vet om det själva. De vet att jag uppskattar dem
+                jättemycket. Men om man har lyckats förlora min respekt så är man helt ute och cyklar på hur man behandlar vänner och personen er som är snäll mot en.<br><br>
+                Resan att lära sig hur man får vänner har varit en otroligt lärorik resa. Det är också därför folk oftast litar på mig. Eftersom att jag har lärt mig hur man ska behandla människor så att de ska lita på mig.</p>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <script>
+        var nav = document.getElementById("myNav");
+
+        function openNav() {
+            nav.style.width = "100%";
+        }
+
+        function closeNav() {
+            nav.style.width = "0";
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+
+    </script>
+</body>
+
+</html>

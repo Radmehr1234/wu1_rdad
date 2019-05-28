@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <!-- META - DON'T TOUCH -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Title - Set to what you want in the browser tab -->
+    <title>Radmehr portfolio</title>
+
+    <!-- Stylesheets -->
+    <!-- Imported -->
+    <!-- BOOTSTRAP -->
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Local -->
+    <!-- Master -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+    <!-- Navbar -->
+    <nav id="myNav" class="overlay">
+        <a href="javascript: void(0)" class="close" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <ul>
+                <li><a href="./Om.html">Om mig</a></li>
+                <li><a href="./hobbis.html">Mina hobbies</a></li>
+                <li><a href="./minu.html">Min utbilning</a></li>
+                <li><a href="./vilka.html">Vilka filmer gillar jag?</a></li>
+                <li><a href="./min.html">Min Familj</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Button for Navbar -->
+    <button onclick="openNav()" class="fas fa-bars float-right"></button>
+    <a href="../index.html"><i class="hemknapp icon ion-md-home"></i></a>
+
+
+    <div class="ffl">
+
+        <div class="bild1">
+            <img class="filmbild" src="../assets/img/avengers.jpg" alt="bild på Avengers Supperhjälptarna">
+            <h3>Marvel Cinematic Universe</h3>
+            <div class="Marveltext">
+                <p>När jag gick i fjärde klass såg jag Iron man för första gången. Som en liten tonåring inspereade det mig att jobba med teknik och vara kreativ.</p>
+                <p><a class="btn btn-secondary" href="./MCU.html" role="button">se mer &raquo;</a></p>
+
+            </div>
+
+        </div>
+        <div class="bild1">
+            <img class="filmbild" src="../assets/img/starwars.png" alt="bild på Star Wars">
+            <h3>Star Wars</h3>
+            <div class="Starwarstext">
+                <p>Som en lite pojke blev jag fascinerad av George Lucas' filmer om figurer som har krafter som svingar runt lasersvärd. Det formade min kreativa sida.</p>
+                <p><a class="btn btn-secondary" href="stawars.html" role="button">se mer &raquo;</a></p>
+            </div>
+
+        </div>
+
+
+        <div class="bild1">
+            <img class="filmbild" src="../assets/img/avici.jpg" alt="bild på Aviciis logg">
+            <h3>Avicii True Story</h3>
+            <div class="Marveltext">
+                <p>Avicii stal mitt hjärta med sin musik när jag gick i 6:an. Vi brukade låssas vara DJ som han. Han var den artist jag tycket mest om och kommer att alltid göra.<br><br>Hans film inspirerade mig att jobba hårdare i mitt liv för att
+                    nå mina mål.
+
+                </p>
+                <p><a class="btn btn-secondary" href="Avicii.html" role="button">Se mer &raquo;</a></p>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <script>
+            var nav = document.getElementById("myNav");
+
+            function openNav() {
+                nav.style.width = "100%";
+            }
+
+            function closeNav() {
+                nav.style.width = "0";
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+
+        </script>
+</body>
+
+</html>
